@@ -17,4 +17,4 @@ $(TARGET): test_stack_calculator.cpp
 clean:
 	rm -f $(MAIN_TARGET) $(TARGET)
 
-.PHONY: all
+.PHONY: all clean
