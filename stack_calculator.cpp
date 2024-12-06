@@ -165,7 +165,7 @@ int main() {
             cin >> input;
             
             if(!isRightCharacter(input) || input.back() == '+' || input.back() == '-' || input.back() == '*' || input.back() == '/') {
-                cout << "수식에 잘못되었습니다. 다시 시도하세요.\n";
+                cout << "수식이 잘못되었습니다. 다시 시도하세요.\n";
                 continue;
             }
 
